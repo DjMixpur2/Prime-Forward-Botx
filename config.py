@@ -6,7 +6,7 @@ class Config:
     API_HASH = environ.get("API_HASH", "15564ec4a1a2cbef87c99a9aa9e40b34")
     BOT_TOKEN = environ.get("BOT_TOKEN", "8178732396:AAEd104z69Wv0xQel_fgdWONINLHbKRBRIg") 
     BOT_SESSION = environ.get("BOT_SESSION", "Prime-Forward-Botx") 
-    DATABASE_URI = environ.get("DATABASE", "mongodb+srv://Kdbhai:Kdbhai@cluster0.qxasr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DATABASE_URI = environ.get("DATABASE", "mongodb+srv://renamebot:renamebot@cluster0.av4ze.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
     BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", '770434685').split()]
     LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001933509863'))
